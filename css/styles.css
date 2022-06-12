@@ -440,7 +440,7 @@ body {
   padding-top: 20px;
   z-index: 1002;
   position: relative;
-}
+  }
 .logo-link:hover {
   color: var(--brand-color);
 }
@@ -646,7 +646,7 @@ p {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: var(--blue);
+  background-color: var(--brand-color);
   opacity: 90%;
   transform: translatey(100%);
   transition: transform 250ms ease;
@@ -657,7 +657,24 @@ line-height: 1.55;
 letter-spacing: 0.03em;
 color: #FFFFFF;
 padding-top: 49px;
+padding: 4px 24px 20px 24px;
 }
 .list1-2-figure:hover .overlay {
   transform: translatey(0);
+}
+.box-overlay{
+  width: 370px;
+height: 70px;
+background: rgba(47, 48, 58, 0.8);
+position: absolute;
+top: 219%;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+justify-content: center;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #fff;
+display: flex;
 }
