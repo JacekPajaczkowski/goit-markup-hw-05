@@ -45,6 +45,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--black);
   text-decoration: none;
+  transition-property: color;
 }
 .section1 {
   height: 600px;
@@ -94,6 +95,7 @@ body {
   justify-content: space-between;
   padding-left: 0;
   width: 254px;
+  transition: color;
 }
 .navigation {
   display: flex;
@@ -156,6 +158,7 @@ body {
   color: #757575;
   display: flex;
   fill: #757575;
+  transition-property: color, fill;
 }
 .mail:hover {
   color: var(--brand-color);
@@ -182,6 +185,7 @@ body {
   display: flex;
   color: #757575;
   text-decoration: none;
+  transition-property: color, fill;
 }
 .phone:hover {
   color: var(--brand-color);
@@ -244,6 +248,7 @@ body {
 }
 .list3 li {
   text-decoration: none;
+  position: relative;
 }
 .list4 {
   text-align: center;
@@ -327,6 +332,7 @@ body {
 .phone1 {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
+  transition-property: color;
 }
 .logo-link1 {
   font-family: "Raleway";
@@ -337,6 +343,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--brand-color);
   text-decoration: none;
+  transition-property: color;
 }
 .title1 {
   color: var(--white);
@@ -361,6 +368,7 @@ body {
   line-height: 1.62;
   border-radius: 0px 0px 4px 4px;
   padding: 6px 22px 6px 22px;
+  transition-property: color, background-color, box-shadow, border-radius;
 }
 .button1-1:active {
   background: var(--brand-color);
@@ -413,6 +421,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   padding-left: 0px;
+  transition-property: box-shadow, border-radius;
 }
 .list1-2 li:nth-child(-n + 6) {
   margin-bottom: 30px;
@@ -515,6 +524,7 @@ p {
   background-color: #ffffff;
   fill: #afb1b8;
   margin-right: 10px;
+  transition-property: fill, background-color;
 }
 
 .social-icon {
@@ -549,6 +559,7 @@ p {
   
   fill: #afb1b8;
   margin-right: 10px;
+  transition-property: fill, background-color;
 }
 
 .social-icon-footer {
@@ -578,6 +589,7 @@ p {
   display: flex;
   justify-content: center;
   fill: #afb1b8;
+  transition-property: fill, border;
 }
 .client-icon:hover,
 .client-icon:focus {
@@ -594,7 +606,7 @@ p {
 }
 .is-hidden {
   opacity: 0;
-  visibility: none;
+  visibility: hidden;
   pointer-events: none;
 }
 
@@ -620,6 +632,7 @@ p {
   top: 70%;
   transform: translate(-50%, -50%)
   scale(1.25);
+  transition-property: transform;
   background-color: #fff;
   width: 528px;
   height: 581px;
@@ -649,7 +662,9 @@ p {
   background-color: var(--brand-color);
   opacity: 90%;
   transform: translatey(100%);
-  transition: transform 250ms ease;
+  transition-duration: 250ms;
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .overlay p {
 font-size: 18px;
@@ -667,7 +682,7 @@ padding: 24px 24px 20px 30px;
 height: 70px;
 background: rgba(47, 48, 58, 0.8);
 position: absolute;
-top: 219%;
+bottom: 1%;
 font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
