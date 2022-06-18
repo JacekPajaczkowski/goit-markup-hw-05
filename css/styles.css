@@ -554,9 +554,7 @@ p {
   color: currentColor;
   justify-content: center;
   align-items: center;
-  transition-property: fill, background-color, color;
-  transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 .social-list {
   display: flex;
@@ -580,7 +578,7 @@ p {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
   
-  fill: #afb1b8;
+  fill: #fff;
   margin-right: 10px;
   transition-property: fill, background-color;
   transition-duration: 250ms;
@@ -687,8 +685,8 @@ p {
     height: 100%;
     background-color: #E5E5E5;
     background: rgba(0, 0, 0, 0.2);
-    transition-property: transform, scale, opacity;
     transition: 250ms cubic-bezier(0.19, 1, 0.22, 1);
+    transition-property: transform, scale, opacity;
     animation-name: modalanime;
     animation-duration: 3000ms;
     animation-iteration-count: 1;
