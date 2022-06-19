@@ -189,10 +189,10 @@ body {
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
-  display: flex;
-  color: #757575;
-  fill: #757575;
   text-decoration: none;
+  color: #757575;
+  display: flex;
+  fill: #757575;
   transition-property: color, fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
