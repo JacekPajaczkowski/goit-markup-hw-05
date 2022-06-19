@@ -191,6 +191,7 @@ body {
   letter-spacing: 0.02em;
   display: flex;
   color: #757575;
+  fill: #757575;
   text-decoration: none;
   transition-property: color, fill;
   transition-duration: 250ms;
